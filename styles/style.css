@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+body{
+    margin: 0px;
+    background-color: black;
+    font-family: 'Raleway', sans-serif; ;
+}
+/*-------------- BANNER SECTION ---------------------*/
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url("../assets/images/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px 0 70px;
+    border-bottom: 1px solid #33A8DB;
+}
+
+.banner-content{
+        color: white;
+        width: 600px;
+        margin: auto;
+        text-align: center;
+}
+
+.banner-content .logo{
+    background-color: #00000033;
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.banner-content h1{
+    font-weight: 900px;
+    font-size: 40px;
+    line-height: 46.96px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content p{
+    width: 510px;
+    height: 46px;
+    display: flex;
+    margin: auto;
+    font-size: 19.5px;
+}
+
+.banner-content button{
+    font-family: 'Raleway', sans-serif; ;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-transform:uppercase;
+    font-weight:bold ;
+    line-height: 18.78px;
+    padding: 20px 40px;
+    margin-top: 20px;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid #3BA1CD ;
+}
+
+.logo{
+    padding-top: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: black;
+}
+
+/*--------------END OF BANNER SECTION ---------------------*/
+
+#course-content{
+    color: white;
+}
+
+/*-------------- COURSE CONTENT SECTION ---------------------*/
+
+
+
+
+/*-------------- END OF COURSE CONTENT SECTION ---------------------*/
+
