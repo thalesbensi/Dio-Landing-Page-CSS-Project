@@ -14,6 +14,7 @@ body{
     text-align: center;
     padding: 50px 0 70px;
     border-bottom: 1px solid #33A8DB;
+    height: 500px;
 }
 
 .banner-content{
@@ -60,7 +61,7 @@ body{
     font-weight:bold ;
     line-height: 18.78px;
     padding: 20px 40px;
-    margin-top: 20px;
+    margin-top: 30px;
     background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -77,14 +78,56 @@ body{
 
 /*--------------END OF BANNER SECTION ---------------------*/
 
+/*-------------- COURSE CONTENT MAIN SECTION ---------------------*/
+
 #course-content{
     color: white;
 }
 
-/*-------------- COURSE CONTENT SECTION ---------------------*/
+#course-content h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 700px;
+    font-size: 32px;
+    letter-spacing: 19%;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #61bdff, #33A8DB );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
+#course-content p{
+    color: white;
+    font-weight: 400px;
+    font-size: 16px;
+    width: 792px;
+    height: 38px;
+    margin: auto;
+    text-align: center;
+}
 
+.module{
+    width: 535px;
+    height: 51px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    background-color: #252525;
+    text-align: center;
+    text-justify: center;
+    line-height: 50px;
+    box-shadow: inset 0 0 10px #000000;
+}
 
+.module span{
+    color: #33A8DB;
+    font-weight: 400;
+    font-size: 16px;
+    shadow
+}
 
-/*-------------- END OF COURSE CONTENT SECTION ---------------------*/
-
+/*-------------- END OF CONTENT MAIN SECTION ---------------------*/
