@@ -5,6 +5,7 @@ body{
     background-color: black;
     font-family: 'Raleway', sans-serif; ;
 }
+
 /*-------------- BANNER SECTION ---------------------*/
 
 .banner {
@@ -82,13 +83,15 @@ body{
 
 #course-content{
     color: white;
+    border-bottom: 1px solid #33A8DB;
+    padding-bottom: 100px;
 }
 
 #course-content h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 50px;
     font-weight: 700px;
     font-size: 32px;
@@ -107,13 +110,14 @@ body{
     height: 38px;
     margin: auto;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .module{
     width: 535px;
     height: 51px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 24px;
     border: 1px solid #33A8DB;
     border-radius: 57px;
     background-color: #252525;
@@ -127,7 +131,32 @@ body{
     color: #33A8DB;
     font-weight: 400;
     font-size: 16px;
-    shadow
 }
 
 /*-------------- END OF CONTENT MAIN SECTION ---------------------*/
+
+/*-------------- TRANSFORM WORLD SECTION ---------------------*/
+
+#transform-world{
+    height: 363px;
+    padding-top: 20px;
+    background-image: url(../assets/images/woman-code.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#transform-world p{
+    width: 244px;
+    height: 141px;
+    margin-top: 111px;
+    margin-left: 198px;
+    color: white;
+    text-transform: lowercase;
+    text-shadow: #33A8DB 1px 0 10px;
+    font-weight: 900;
+    font-size: 40px;
+    border: 1px solid red;
+}
+
+/*-------------- END OF TRANSFORM WORLD SECTION ---------------------*/
