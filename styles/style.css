@@ -79,6 +79,7 @@ body{
 
 /*--------------END OF BANNER SECTION ---------------------*/
 
+
 /*-------------- COURSE CONTENT MAIN SECTION ---------------------*/
 
 #course-content{
@@ -135,14 +136,17 @@ body{
 
 /*-------------- END OF CONTENT MAIN SECTION ---------------------*/
 
+
 /*-------------- TRANSFORM WORLD SECTION ---------------------*/
 
 #transform-world{
     height: 363px;
     padding-top: 20px;
+    border-bottom: 1px solid #33A8DB;
     background-image: url(../assets/images/woman-code.png);
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -159,3 +163,86 @@ body{
 }
 
 /*-------------- END OF TRANSFORM WORLD SECTION ---------------------*/
+
+
+/*-------------- PROFESSIONAL CHALLENGES SECTION ---------------------*/
+
+#professional-challenges{
+    border-bottom: 1px solid #33A8DB;
+}
+
+#professional-challenges h2{
+    width: 746px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+    font-weight: 700px;
+    font-size: 32px;
+    letter-spacing: 19%;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #61bdff, #33A8DB );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#professional-challenges img{
+    display: flex;
+    margin: auto;
+}
+
+#professional-challenges p{
+    color: white;
+    font-weight: 400px;
+    font-size: 16px;
+    width: 792px;
+    height: 76px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+/*-------------- END OF PROFESSIONAL CHALLENGES SECTION ---------------------*/
+
+/*-------------- FOOTER SECTION ---------------------*/
+
+footer {
+    height: 110px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2));
+}
+
+footer img {
+    width: 310px;
+    height: 44px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+}
+
+footer p{
+    width: 259px;
+    height: 19px;
+    color: white;
+    font-weight: 400;
+    size: 16px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+footer a{
+    color: #33A8DB;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+/*-------------- END OF FOOTER SECTION ---------------------*/
