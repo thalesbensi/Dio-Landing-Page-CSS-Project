@@ -1,0 +1,41 @@
+/*-------------- PROFESSIONAL CHALLENGES SECTION ---------------------*/
+#professional-challenges{
+    border-bottom: 1px solid #33A8DB;
+}
+
+#professional-challenges h2{
+    width: 746px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 19%;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #61bdff, #33A8DB );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#professional-challenges img{
+    display: flex;
+    margin: auto;
+}
+
+#professional-challenges p{
+    color: white;
+    font-weight: 400px;
+    font-size: 16px;
+    width: 792px;
+    height: 76px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+/*-------------- END OF PROFESSIONAL CHALLENGES SECTION ---------------------*/
