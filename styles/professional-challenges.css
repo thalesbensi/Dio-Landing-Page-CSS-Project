@@ -15,6 +15,7 @@
     font-weight: 700;
     font-size: 32px;
     letter-spacing: 19%;
+    line-height: 130%;
     text-align: center;
     text-transform: uppercase;
     background: linear-gradient(180deg, #61bdff, #33A8DB );
@@ -31,6 +32,7 @@
     color: white;
     font-weight: 400px;
     font-size: 16px;
+    line-height: 130%;
     width: 792px;
     height: 76px;
     margin: auto;
